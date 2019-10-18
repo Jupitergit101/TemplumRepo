@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="170942" started-at="2019-10-18T04:49:18Z" finished-at="2019-10-18T04:52:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="170942" started-at="2019-10-18T04:49:18Z" finished-at="2019-10-18T04:52:09Z">
+      <class name="WeightWatchePageTest.WeightWatcherCompleteTest">
+        <test-method status="PASS" signature="startup()[pri:0, instance:WeightWatchePageTest.WeightWatcherCompleteTest@66a3ffec]" name="startup" is-config="true" duration-ms="20242" started-at="2019-10-18T04:49:19Z" finished-at="2019-10-18T04:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="completeTest()[pri:0, instance:WeightWatchePageTest.WeightWatcherCompleteTest@66a3ffec]" name="completeTest" duration-ms="15425" started-at="2019-10-18T04:49:39Z" finished-at="2019-10-18T04:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:WeightWatchePageTest.WeightWatcherCompleteTest@66a3ffec]" name="teardown" is-config="true" duration-ms="1024" started-at="2019-10-18T04:49:54Z" finished-at="2019-10-18T04:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WeightWatchePageTest.WeightWatcherCompleteTest -->
+      <class name="WeightWatchePageTest.WeightWatcherHomepageTest">
+        <test-method status="PASS" signature="startup()[pri:0, instance:WeightWatchePageTest.WeightWatcherHomepageTest@77caeb3e]" name="startup" is-config="true" duration-ms="16955" started-at="2019-10-18T04:51:51Z" finished-at="2019-10-18T04:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:1, instance:WeightWatchePageTest.WeightWatcherHomepageTest@77caeb3e]" name="verifyHomepageTitle" duration-ms="257" started-at="2019-10-18T04:52:08Z" finished-at="2019-10-18T04:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:WeightWatchePageTest.WeightWatcherHomepageTest@77caeb3e]" name="teardown" is-config="true" duration-ms="1356" started-at="2019-10-18T04:52:08Z" finished-at="2019-10-18T04:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WeightWatchePageTest.WeightWatcherHomepageTest -->
+      <class name="WeightWatchePageTest.WeightWatcherSearchResultTest">
+        <test-method status="PASS" signature="startup()[pri:0, instance:WeightWatchePageTest.WeightWatcherSearchResultTest@42d80b78]" name="startup" is-config="true" duration-ms="32777" started-at="2019-10-18T04:50:19Z" finished-at="2019-10-18T04:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="print_First_result_title_and_distance()[pri:0, instance:WeightWatchePageTest.WeightWatcherSearchResultTest@42d80b78]" name="print_First_result_title_and_distance" duration-ms="2756" started-at="2019-10-18T04:50:52Z" finished-at="2019-10-18T04:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_First_result_title_and_distance -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:WeightWatchePageTest.WeightWatcherSearchResultTest@42d80b78]" name="teardown" is-config="true" duration-ms="980" started-at="2019-10-18T04:50:55Z" finished-at="2019-10-18T04:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WeightWatchePageTest.WeightWatcherSearchResultTest -->
+      <class name="WeightWatchePageTest.WeightWatcherStudiopageTest">
+        <test-method status="FAIL" signature="startup()[pri:0, instance:WeightWatchePageTest.WeightWatcherStudiopageTest@1e88b3c]" name="startup" is-config="true" duration-ms="24045" started-at="2019-10-18T04:49:55Z" finished-at="2019-10-18T04:50:19Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a51643f67c206c40ad8f6fce064e43ba]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a51643f67c206c40ad8f6fce064e43ba
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at basePackage.BaseClass.initialization(BaseClass.java:53)
+at WeightWatchePageTest.WeightWatcherStudiopageTest.startup(WeightWatcherStudiopageTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="SKIP" signature="verify_studio_page_title()[pri:0, instance:WeightWatchePageTest.WeightWatcherStudiopageTest@1e88b3c]" name="verify_studio_page_title" duration-ms="0" started-at="2019-10-18T04:50:19Z" finished-at="2019-10-18T04:50:19Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a51643f67c206c40ad8f6fce064e43ba]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a51643f67c206c40ad8f6fce064e43ba
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at basePackage.BaseClass.initialization(BaseClass.java:53)
+at WeightWatchePageTest.WeightWatcherStudiopageTest.startup(WeightWatcherStudiopageTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_studio_page_title -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:WeightWatchePageTest.WeightWatcherStudiopageTest@1e88b3c]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-18T04:50:19Z" finished-at="2019-10-18T04:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WeightWatchePageTest.WeightWatcherStudiopageTest -->
+      <class name="WeightWatchePageTest.WeightWatcherSingleResultpageTest">
+        <test-method status="PASS" signature="startup()[pri:0, instance:WeightWatchePageTest.WeightWatcherSingleResultpageTest@3bfdc050]" name="startup" is-config="true" duration-ms="19950" started-at="2019-10-18T04:50:56Z" finished-at="2019-10-18T04:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="Today_hours_of_operation()[pri:0, instance:WeightWatchePageTest.WeightWatcherSingleResultpageTest@3bfdc050]" name="Today_hours_of_operation" duration-ms="6967" started-at="2019-10-18T04:51:16Z" finished-at="2019-10-18T04:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Today_hours_of_operation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:WeightWatchePageTest.WeightWatcherSingleResultpageTest@3bfdc050]" name="teardown" is-config="true" duration-ms="993" started-at="2019-10-18T04:51:23Z" finished-at="2019-10-18T04:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="startup()[pri:0, instance:WeightWatchePageTest.WeightWatcherSingleResultpageTest@3bfdc050]" name="startup" is-config="true" duration-ms="20300" started-at="2019-10-18T04:51:24Z" finished-at="2019-10-18T04:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="match_titlename_with_selected_result()[pri:0, instance:WeightWatchePageTest.WeightWatcherSingleResultpageTest@3bfdc050]" name="match_titlename_with_selected_result" duration-ms="5785" started-at="2019-10-18T04:51:44Z" finished-at="2019-10-18T04:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- match_titlename_with_selected_result -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:WeightWatchePageTest.WeightWatcherSingleResultpageTest@3bfdc050]" name="teardown" is-config="true" duration-ms="982" started-at="2019-10-18T04:51:50Z" finished-at="2019-10-18T04:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WeightWatchePageTest.WeightWatcherSingleResultpageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
